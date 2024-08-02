@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<title>Confirmation</title>
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				background: rgb(211,190,171)
+			}
+
+			h1 {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				color: rgb(83, 82, 82);
+				margin-bottom: 30px;
+				font-size: 3rem;
+			}
+
+			.phone {
+				width: 400px;
+				animation: wobble;
+				animation-duration: 3s;
+			}
+			img {
+				max-width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Check your phone</h1>
+		<div class="phone"><img src="{{ url_for('static', filename='images/check_your_phone_logo.jpg') }}" alt="check_your_phone_logo" /></div>
+	</body>
+</html>

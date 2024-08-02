@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	max-height: 20dvh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid rgb(83, 82, 82);
+	gap: 20%;
+	margin: 8px 8px 8px 8px;
+}
+
+.logo {
+	width: 10%;
+	margin: 8px 8px 8px 8px;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	align-items: center;
+}
+
+.text p {
+	color: rgb(220,116,28);
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 8px;
+}
+form {
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+	align-items: center;
+	min-width: 80%;
+	height: 20dvh;
+    gap: 20px;
+}
+input[type="text"],
+input[type="tel"] {
+	min-width: 80%;
+    height: 100%;
+    border: 1px solid rgb(204,162,124);
+    font-size: large;
+    padding-left: 4px;
+	outline: none;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus{
+    border:1px solid rgb(220,116,28);
+}
+input[type="submit"]{
+    width: 15%;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(220,116,28);
+}

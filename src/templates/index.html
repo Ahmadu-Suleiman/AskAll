@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}"/>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="text">
+        <h1>AgriAsk</h1>
+        <p>Know More, Grow More</p>
+    </div>
+</header>
+<main>
+    <form action="/add-member" method="post">
+        <input
+                type="text"
+                placeholder="Please enter your name..."
+                value=""
+                id="name"
+                name="name" required
+        />
+        <input
+                type="tel"
+                pattern="+[0-9]{10}"
+                placeholder="Please enter your phone number..."
+                value=""
+                id="number"
+                name="number" required
+        />
+        <input type="submit"/>
+    </form>
+</main>
+</body>
+</html>
+<script>
+    const downloadButton = document.querySelector('input[type="submit"]');
+    const inputField = document.querySelector('input[type="text"]');
+
+    inputField.addEventListener("input", () => {
+        inputField.value += inputField.innerHTML;
+    });
+    downloadButton.addEventListener("click", (e) => {
+        console.log(inputField.value);
+        if (inputField.value == "") {
+            e.preventDefault();
+        }
+    });
+</script>
