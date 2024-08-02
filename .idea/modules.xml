@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AgriAsk.iml" filepath="$PROJECT_DIR$/.idea/AgriAsk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AskAll.iml" filepath="$PROJECT_DIR$/.idea/AskAll.iml" />
     </modules>
   </component>
 </project>
