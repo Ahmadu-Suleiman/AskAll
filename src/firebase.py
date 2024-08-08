@@ -3,7 +3,7 @@ import jsonpickle
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred = credentials.Certificate("../askall private key.json")
+cred = credentials.Certificate("askall private key.json")
 app = firebase_admin.initialize_app(cred)
 db = firestore.client(app)
 doc_ref = db.collection("members")
