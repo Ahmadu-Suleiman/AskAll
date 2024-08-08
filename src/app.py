@@ -38,7 +38,7 @@ def handle_incoming_messages():
     sender = form_data['from']
 
     name = util.register_name(text)
-    if len(name) > 2:
+    if len(name) >= 2:
         send_confirmation(name=name, number=sender)
     else:
         response = get_response(prompt=text, number=sender)
