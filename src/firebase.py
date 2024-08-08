@@ -2,8 +2,18 @@ import firebase_admin
 import jsonpickle
 from firebase_admin import credentials
 from firebase_admin import firestore
+import os
 
-cred = credentials.Certificate("askall private key.json")
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+# Navigate up to the project root
+root_dir = os.path.dirname(script_dir)
+
+# Now, construct the path to the file relative to the project root
+private_key = os.path.join(root_dir, 'askall private key.json')
+
+cred = credentials.Certificate(private_key)
 app = firebase_admin.initialize_app(cred)
 db = firestore.client(app)
 doc_ref = db.collection("members")
