@@ -1,8 +1,8 @@
+import os
 import firebase_admin
 import jsonpickle
 from firebase_admin import credentials
 from firebase_admin import firestore
-import os
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.realpath(__file__))
