@@ -1,0 +1,6 @@
+africastalking==1.2.8
+firebase_admin==6.5.0
+Flask==3.0.3
+jsonpickle==3.2.2
+protobuf==5.27.3
+python-dotenv==1.0.1

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="" />
+    <list default="true" id="3ffa1186-90e1-4a8a-bb1a-f6e6c78b1713" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Debug",
+    "Python.app.executor": "Run",
     "Python.firebase.executor": "Run",
     "Python.gemini.executor": "Run",
     "Python.main.executor": "Run",
@@ -55,16 +62,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ahmad/Desktop/Projects/AskAll"
+    "last_opened_file_path": "C:/Users/ahmad/Desktop/Projects/AskAll/functions"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahmad\Desktop\Projects\AskAll\functions" />
+      <recent name="C:\Users\ahmad\Desktop\Projects\AskAll\functions\src" />
       <recent name="C:\Users\ahmad\Documents\Desktop\Projects\AskAll" />
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk" />
       <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk\templates" />
-      <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk\static\images" />
-      <recent name="C:\Users\ahmad\Desktop\Projects\AgriAsk\.venv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ahmad\Documents\Desktop\Projects\AskAll\src" />
