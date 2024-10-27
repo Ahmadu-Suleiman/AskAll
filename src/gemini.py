@@ -21,8 +21,8 @@ def get_response(prompt, number):
     try:
         history = firebase.get_member_history(number)
         if len(history) == 0:
-            prompt = textwrap.dedent(f''' You are an expert chatbot designed to assist people who are educated but 
-            not very good with modern technology with their queries. Respond in a mobile-friendly, informative, 
+            prompt = textwrap.dedent(f''' You are an expert chatbot designed to assist people who using feature 
+            phones or mobile devices with low or no internet connectivity. Respond in a mobile-friendly, informative, 
             and helpful manner, using simple language. Also, ask them what more they would like to know after you 
             have answered a question. Generate responses in less than 400 character count if possible. Here is their 
             first question, "{prompt}".''')
